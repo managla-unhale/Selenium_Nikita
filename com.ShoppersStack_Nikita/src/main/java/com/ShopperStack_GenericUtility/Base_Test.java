@@ -76,12 +76,11 @@ public class Base_Test {
 //		String browser = sc.next();
 //		System.out.println("Number of Browsers");
 		
-//		String browserName = file.readPropertyData("browserName");   // mahun aaya 2 line maven run karansathi command keliy aahe 
-//		String url = file.readPropertyData("url");
-		
+		String browserName = file.readPropertyData("browserName");   // mahun aaya 2 line maven run karansathi command keliy aahe 
+		String url = file.readPropertyData("url");	
 		/*****************************cmd code*****************************/
-		String browserName = System.getProperty("browser");   // aaya 2 line maven run karta ne write kele aahe 
-     	String url = System.getProperty("url");
+//		String browserName = System.getProperty("browser");   // aaya 2 line maven run karta ne write kele aahe 
+//     	String url = System.getProperty("url");
 		/********************************************************************/	
 		
 		if (browserName.contains("chrome")) 
